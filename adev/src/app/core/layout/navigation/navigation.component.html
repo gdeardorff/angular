@@ -126,7 +126,7 @@
         </a>
 
         <!-- Version picker for v18+ -->
-        <!-- <div class="adev-nav-item">
+        <div class="adev-nav-item">
           <button
             type="button"
             aria-label="Select Angular version"
@@ -139,7 +139,7 @@
             (click)="openVersionMenu($event)"
           >
             {{ currentDocsVersion()?.displayName }}
-            <svg
+            <!-- <svg
               xmlns="http://www.w3.org/2000/svg"
               height="15"
               viewBox="0 -960 960 960"
@@ -147,11 +147,11 @@
               fill="inherit"
             >
               <path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z" />
-            </svg>
+            </svg> -->
           </button>
 
           <ng-template #docsVersionMiniMenu>
-            <ul class="adev-mini-menu adev-version-picker" cdkMenu>
+            <!-- <ul class="adev-mini-menu adev-version-picker" cdkMenu>
               @for (item of versions(); track item) {
               <li>
                 <button
@@ -164,9 +164,9 @@
                 </button>
               </li>
               }
-            </ul>
+            </ul> -->
           </ng-template>
-        </div> -->
+        </div>
       </li>
 
       <!-- Search -->
